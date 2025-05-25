@@ -1,87 +1,80 @@
----
+## **1. Tính năng**
 
-# **E-Commerce Clothing Website**  
-> A user-friendly online platform for purchasing clothes, built with Java and JSP, integrated with MySQL for database management.
+### **Dành cho Khách Hàng**
 
----
+- Duyệt sản phẩm theo danh mục.
+- Tìm kiếm sản phẩm theo tên và khoảng giá.
+- Thêm sản phẩm vào giỏ hàng và đặt hàng.
 
-## **1. Features**
+### **Dành cho Quản Trị Viên**
 
-### **For Customers**
-
-- Browse products by category.
-- Search for products by name and price range.
-- Add products to a shopping cart and place orders.
-
-### **For Admins**
-
-- Manage products: Add, edit, delete, and upload clothing items.
-- Oversee orders and customer details.
+- Quản lý sản phẩm: Thêm, chỉnh sửa, xóa và tải lên các mặt hàng quần áo.
+- Giám sát đơn hàng và thông tin khách hàng.
 
 ---
 
-## **2. Technologies Used**
+## **2. Công Nghệ Sử Dụng**
 
-- **Programming Language**: Java (Spring Framework)
+- **Ngôn Ngữ Lập Trình**: Java (Spring Framework)
 - **Frontend**: JSP, CSS, Bootstrap
-- **Database**: MySQL
-- **Other Tools**: Git, GitHub
+- **Cơ Sở Dữ Liệu**: MySQL
+- **Công Cụ Khác**: Git, GitHub
 
 ---
 
-## **3. Installation Guide**
+## **3. Hướng Dẫn Cài Đặt**
 
-### **Step 1: Clone the Repository**
+### **Bước 1: Nhân Bản Kho Lưu Trữ**
 
-Clone the repository to your local machine:
+Nhân bản kho lưu trữ về máy tính của bạn:
 
 ```bash
-git clone https://github.com/TayyDuy/ecommerce-clothing.git
-cd ecommerce-clothing
+git clone https://github.com/minhthuan1902/ecommerce-clothing.git
+
 ```
 
-### **Step 2: Database Setup**
+### **Bước 2: Thiết Lập Cơ Sở Dữ Liệu**
 
-1. Create a new MySQL database:
-   ```sql
-   CREATE DATABASE ecommerce_clothing;
-   ```
-2. Import the `asm.sql` file into the database.
+1. Tạo một cơ sở dữ liệu MySQL mới:
+ ```sql
+ CREATE DATABASE ecommerce_clothing;
+ ```
+2. Nhập tệp `asm.sql` vào cơ sở dữ liệu
 
-### **Step 3: Run the Application**
+### **Bước 3: Chạy Ứng Dụng**
 
-1. Configure the database connection in the `application.properties` file (or equivalent).
-2. Open the project in your IDE (Eclipse/IntelliJ).
-3. Build and run the application.
-
----
-
-## **4. How to Use**
-
-### **Customer Workflow**
-
-1. Browse products via the homepage or search bar.
-2. Add items to the shopping cart and proceed to checkout.
-
-### **Admin Workflow**
-
-1. Login through the admin panel.
-2. Use the admin interface to:
-   - Add or update clothing items.
-   - Manage categories.
-   - Review and process orders.
+1. Cấu hình kết nối cơ sở dữ liệu trong tệp `application.properties` (hoặc tương đương).
+2. Mở dự án trong IDE của bạn (Eclipse/IntelliJ).
+3. Xây dựng và chạy ứng dụng.
 
 ---
 
-### **Admin**
+## **4. Cách Sử Dụng**
+
+### **Quy Trình Khách Hàng**
+
+1. Duyệt sản phẩm qua trang chủ hoặc thanh tìm kiếm.
+2. Thêm sản phẩm vào giỏ hàng và tiến hành thanh toán.
+
+### **Quy Trình Quản Trị**
+
+1. Đăng nhập qua bảng điều khiển quản trị.
+2. Sử dụng giao diện quản trị để:
+ - Thêm hoặc cập nhật các mặt hàng quần áo.
+ - Quản lý các danh mục.
+ - Xem xét và xử lý đơn hàng.
+
+---
+
+### **Quản Trị**
 
 tk:admin123
 mk:123456
 
 ---
 
-## **6. License**
+## **6. Giấy Phép**
 
-This project is licensed under the [MIT License](LICENSE).
+Dự án này được cấp phép theo [Giấy Phép MIT](LICENSE).
 
 ---
